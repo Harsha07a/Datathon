@@ -37,3 +37,5 @@ models:
       +materialized: table
     raw_bucket:
       +materialized: table
+    Final:
+      +materialized: view
