@@ -1,5 +1,5 @@
 SELECT
-STORE_ID,
+DISTINCT STORE_ID,
 STORE_FORMAT_NAME
 city_name,
 province_name,
