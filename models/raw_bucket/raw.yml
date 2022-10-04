@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: raw_fmcg_data
-    database: DBT
-    schema: RAW_FMCG
-    tables:
-      - name: RAW_MP_ID_FMCG
