@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw_fmcg_data
+    description: Eyos provides transactional level data directly from the Point of Sales (PoS) of 2,000 digitally connected Independently owned grocery retail stores in Indonesia.
+    database: DBT
+    description: '{{doc("fmcg_data_details")}}'
+    schema: RAW_FMCG
+    tables:
+      - name: RAW_MP_ID_FMCG
+        description: Raw FMCG data.
+        loaded_at_field: date_date
