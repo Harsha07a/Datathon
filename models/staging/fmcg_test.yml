@@ -1,9 +1,9 @@
 version: 2
 
 models:
-  - name: stg_sales
+  - name: stg_products
     columns: 
-      - name: RECEIPT_ID
+      - name: PRODUCT_BARCODE
         tests:
           - unique
           - not_null
