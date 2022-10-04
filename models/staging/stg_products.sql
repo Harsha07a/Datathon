@@ -54,4 +54,3 @@ ROW_NUMBER() OVER (PARTITION BY product_barcode ORDER BY product_barcode) RNO
 FROM {{source ('raw_fmcg_data','RAW_MP_ID_FMCG')}}
 )
 WHERE RNO = 1
-limit 10

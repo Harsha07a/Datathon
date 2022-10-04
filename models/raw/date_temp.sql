@@ -1,1 +1,0 @@
-select datediff('day', '2020-01-01', current_date) as date_temp
