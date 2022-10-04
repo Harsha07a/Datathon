@@ -1,4 +1,2 @@
-select
-RECEIPT_ID,
-PRODUCT_BARCODE
+select *
 FROM {{ref ('stg_sales_products')}}
